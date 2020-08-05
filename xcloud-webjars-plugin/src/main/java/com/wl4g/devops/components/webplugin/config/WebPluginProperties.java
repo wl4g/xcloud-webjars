@@ -20,7 +20,7 @@ import static org.springframework.util.CollectionUtils.isEmpty;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.wl4g.devops.common.config.DefaultEmbeddedWebappsAutoConfiguration.GenericEmbeddedWebappsProperties;
+import com.wl4g.components.core.config.DefaultEmbeddedWebappsAutoConfiguration.GenericEmbeddedWebappsProperties;
 
 /**
  * Web plugin properties

@@ -15,7 +15,7 @@
  */
 package com.wl4g.devops.components.webide.config;
 
-import com.wl4g.devops.common.config.DefaultEmbeddedWebappsAutoConfiguration.GenericEmbeddedWebappsProperties;
+import com.wl4g.components.core.config.DefaultEmbeddedWebappsAutoConfiguration.GenericEmbeddedWebappsProperties;
 
 /**
  * WebIdeProperties

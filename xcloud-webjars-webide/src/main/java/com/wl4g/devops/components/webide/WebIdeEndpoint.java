@@ -16,8 +16,8 @@
 package com.wl4g.devops.components.webide;
 
 import static com.google.common.base.Charsets.UTF_8;
-import static com.wl4g.devops.components.tools.common.lang.StringUtils2.endsWithIgnoreCase;
-import static com.wl4g.devops.components.tools.common.serialize.JacksonUtils.toJSONString;
+import static com.wl4g.components.common.lang.StringUtils2.endsWithIgnoreCase;
+import static com.wl4g.components.common.serialize.JacksonUtils.toJSONString;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -25,7 +25,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.wl4g.devops.common.web.embedded.GenericEmbeddedWebappsEndpoint;
+import com.wl4g.components.core.web.embedded.GenericEmbeddedWebappsEndpoint;
 import com.wl4g.devops.components.webide.config.WebIdeProperties;
 import com.wl4g.devops.components.webide.generate.parse.GenericClassInfo;
 import com.wl4g.devops.components.webide.model.CompleteRequest;

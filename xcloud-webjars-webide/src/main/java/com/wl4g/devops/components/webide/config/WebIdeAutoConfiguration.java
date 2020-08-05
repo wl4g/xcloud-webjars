@@ -23,7 +23,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.wl4g.devops.common.config.OptionalPrefixControllerAutoConfiguration;
+import com.wl4g.components.core.config.OptionalPrefixControllerAutoConfiguration;
 import com.wl4g.devops.components.webide.DefaultWebIdeCompleter;
 import com.wl4g.devops.components.webide.WebIdeCompleter;
 import com.wl4g.devops.components.webide.WebIdeEndpoint;

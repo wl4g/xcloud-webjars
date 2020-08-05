@@ -16,8 +16,8 @@
 package com.wl4g.devops.components.webplugin;
 
 import static com.google.common.base.Charsets.UTF_8;
-import static com.wl4g.devops.components.tools.common.serialize.JacksonUtils.toJSONString;
-import static com.wl4g.devops.components.tools.common.web.WebUtils2.getRequestParam;
+import static com.wl4g.components.common.serialize.JacksonUtils.toJSONString;
+import static com.wl4g.components.common.web.WebUtils2.getRequestParam;
 import static java.util.Locale.US;
 import static org.apache.commons.lang3.StringUtils.endsWithAny;
 
@@ -25,7 +25,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.wl4g.devops.common.web.embedded.GenericEmbeddedWebappsEndpoint;
+import com.wl4g.components.core.web.embedded.GenericEmbeddedWebappsEndpoint;
 import com.wl4g.devops.components.webplugin.config.WebPluginProperties;
 import com.wl4g.devops.components.webplugin.handler.WebPluginHandler;
 

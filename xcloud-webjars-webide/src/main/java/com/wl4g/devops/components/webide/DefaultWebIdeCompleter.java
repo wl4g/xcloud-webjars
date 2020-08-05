@@ -15,9 +15,9 @@
  */
 package com.wl4g.devops.components.webide;
 
-import static com.wl4g.devops.components.tools.common.log.SmartLoggerFactory.getLogger;
+import static com.wl4g.components.common.log.SmartLoggerFactory.getLogger;
 
-import com.wl4g.devops.components.tools.common.log.SmartLogger;
+import com.wl4g.components.common.log.SmartLogger;
 import com.wl4g.devops.components.webide.generate.parse.GenericClassInfo;
 import com.wl4g.devops.components.webide.model.CompleteRequest;
 

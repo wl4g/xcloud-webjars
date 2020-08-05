@@ -15,9 +15,9 @@
  */
 package com.wl4g.devops.components.webide.generate.parse;
 
-import static com.wl4g.devops.components.tools.common.lang.Assert2.hasTextOf;
-import static com.wl4g.devops.components.tools.common.lang.Assert2.notNullOf;
-import static com.wl4g.devops.components.tools.common.lang.StringUtils2.endsWithIgnoreCase;
+import static com.wl4g.components.common.lang.Assert2.hasTextOf;
+import static com.wl4g.components.common.lang.Assert2.notNullOf;
+import static com.wl4g.components.common.lang.StringUtils2.endsWithIgnoreCase;
 
 /**
  * {@link CodingType}
