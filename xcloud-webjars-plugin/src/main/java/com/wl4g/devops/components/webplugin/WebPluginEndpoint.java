@@ -25,7 +25,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.wl4g.components.core.web.embedded.GenericEmbeddedWebappsEndpoint;
+import com.wl4g.components.core.web.embed.GenericEmbeddedWebappsEndpoint;
 import com.wl4g.devops.components.webplugin.config.WebPluginProperties;
 import com.wl4g.devops.components.webplugin.handler.WebPluginHandler;
 

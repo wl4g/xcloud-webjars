@@ -25,7 +25,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.wl4g.components.core.web.embedded.GenericEmbeddedWebappsEndpoint;
+import com.wl4g.components.core.web.embed.GenericEmbeddedWebappsEndpoint;
 import com.wl4g.devops.components.webide.config.WebIdeProperties;
 import com.wl4g.devops.components.webide.generate.parse.GenericClassInfo;
 import com.wl4g.devops.components.webide.model.CompleteRequest;

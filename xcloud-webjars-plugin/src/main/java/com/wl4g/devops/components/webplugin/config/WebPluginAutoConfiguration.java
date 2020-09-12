@@ -22,7 +22,8 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.wl4g.components.core.config.OptionalPrefixControllerAutoConfiguration;
+import com.wl4g.components.core.config.mapping.AbstractHandlerMappingSupport;
+import com.wl4g.components.core.config.mapping.PrefixHandlerMapping;
 import com.wl4g.devops.components.webplugin.WebPluginEndpoint;
 import com.wl4g.devops.components.webplugin.handler.DefaultConfiguredWebPluginHandler;
 
@@ -34,7 +35,7 @@ import com.wl4g.devops.components.webplugin.handler.DefaultConfiguredWebPluginHa
  * @since
  */
 @Configuration
-public class WebPluginAutoConfiguration extends OptionalPrefixControllerAutoConfiguration {
+public class WebPluginAutoConfiguration extends AbstractHandlerMappingSupport {
 
 	@Bean
 	@ConditionalOnProperty(name = KEY_PLUGIN_PREFIX + ".enable", matchIfMissing = true)

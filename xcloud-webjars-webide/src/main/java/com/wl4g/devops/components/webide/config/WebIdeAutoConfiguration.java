@@ -23,7 +23,8 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.wl4g.components.core.config.OptionalPrefixControllerAutoConfiguration;
+import com.wl4g.components.core.config.mapping.AbstractHandlerMappingSupport;
+import com.wl4g.components.core.config.mapping.PrefixHandlerMapping;
 import com.wl4g.devops.components.webide.DefaultWebIdeCompleter;
 import com.wl4g.devops.components.webide.WebIdeCompleter;
 import com.wl4g.devops.components.webide.WebIdeEndpoint;
@@ -36,7 +37,7 @@ import com.wl4g.devops.components.webide.WebIdeEndpoint;
  * @since
  */
 @Configuration
-public class WebIdeAutoConfiguration extends OptionalPrefixControllerAutoConfiguration {
+public class WebIdeAutoConfiguration extends AbstractHandlerMappingSupport {
 
 	@Bean
 	@ConditionalOnProperty(name = KEY_WEBIDE_PREFIX + ".enable", matchIfMissing = true)
